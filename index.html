@@ -7,16 +7,18 @@
     <title>Jason Kwan | 3D Environment Artist</title>
     <link rel="stylesheet" href="../stylesheets/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    <script src="../js/typing.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/typing.js" type="text/javascript"></script>
+    <script src="./js/main.js" type="text/javascript"></script>
 </head>
-<body>
+<body onload='typingText()'>
     <!-- Header showcase -->
     <header id="showcase" class="grid">
         <div class="bg-image"></div>
             <div class="content-wrap">
-                <h1>Jason Kwan</h1>
+                <h1 id="name"></h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident nulla esse consectetur ratione iure pariatur optio rem consequatur corrupti dolorum!</p>
-                <a href="" class="btn" onclick="testFunction()">My Projects</a>
+                <a href="" class="btn">My Projects</a>
         </div>
     </header>
 
@@ -25,10 +27,10 @@
         <!-- Section A -->
         <section id="section-a" class="grid">
             <div class="content-wrap">
-                <h2 class="content-title">Casual 3D Derp Artist</h2>
+                <!-- <h2 class="content-title">3D Environment Artist</h2> -->
                 <div class="profile-picture"><img src="../assets/images/jason.png" class="smaller-image"></div>
                 <div class="content-text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sunt architecto adipisci iusto eos ipsam quia officiis dolorem culpa obcaecati.</p>
+                    <p>I am a 3D Environment Artist and a recent graduate of the 3D Modeling, Art &amp; Animation program at British Columbia Institute of Technology.</p>
                 </div>
             </div>
 
