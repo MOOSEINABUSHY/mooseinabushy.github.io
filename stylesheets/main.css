@@ -1,7 +1,14 @@
 /* Base styles */
 
 :root {
-    font-family: Open Sans, monospace;
+    font-family: Open Sans, sans-serif;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
 body {
     margin: 0;
@@ -116,6 +123,12 @@ p {
     padding: 0 2em;
 }
 
+.icon {
+    height: auto;
+    max-width: 50px;
+    min-width: 50px;
+}
+
 /* Section A */
 #section-a {
     background: #fff;
@@ -175,6 +188,18 @@ p {
     background: #252839;
     color: #fff;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-footer img {
+    padding: 15px;
+}
+
+#main-footer img:hover {
+    transition: transform 0.4s;
+    transform: scale(1.5);    
 }
 
 #main-footer a {
@@ -229,5 +254,8 @@ p {
         
     }
 
+    #main-footer {
+        justify-content: flex-end;
+    }
     
 }
