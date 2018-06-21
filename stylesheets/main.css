@@ -2,12 +2,12 @@
 
 :root {
     font-family: Open Sans, sans-serif;
-    /* -webkit-touch-callout: none; 
+     -webkit-touch-callout: none; 
     -webkit-user-select: none; 
      -khtml-user-select: none; 
        -moz-user-select: none; 
         -ms-user-select: none; 
-            user-select: none;  */
+            user-select: none;  
                                   
                                   
 }
@@ -15,7 +15,7 @@ body {
     margin: 0;
     /* Add font here later */
     color: #fff;
-    background: #233237;
+    background: #2A2D3B;
     font-size: 1.1em;
     line-height: 1.5;
     text-align: center;
@@ -26,6 +26,7 @@ img {
     width: 100%;
     height: auto;
 }
+
 
 
 
@@ -130,6 +131,15 @@ p {
     min-width: 50px;
 }
 
+#name {
+    font-size: 3.5em;
+}
+
+#type {
+    font-size: 20px;
+}
+
+
 /* Section A */
 #section-a {
     background: #fff;
@@ -145,22 +155,37 @@ p {
 
 /* Section B */
 #section-b {
-    padding: 2em 1em 1em;
-    display: none;
-
+    padding: 0.5em 0.5em 1em;
+    display: inline-block;
+    color: #fdfdfd;
 }
+
+.card-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800i;
+    font-size: 25px;
+    text-align: left;
+    padding-bottom: 10px;
+    color: #fdfdfd;
+}
+
 
 #section-b ul {
     list-style: none;
     margin: 0;
     padding: 0;
+
 }
 
 #section-b li {
     margin-bottom: 1em;
-    background: #fff;
-    color: hsl(210, 12%, 37%);
+    background: transparent;
+    color: #fff;
+    /* background: white; */
+    /* color: hsl(210, 12%, 37%); */
 }
+
+
 
 .card-content {
     padding: 1.5em;
@@ -183,15 +208,22 @@ p {
     background: #3fb0ac;
 }
 
+#section-d p {
+    margin-top: -20px;
+}
+
+
 /* Footer */
 #main-footer {
-    padding: 2em;
+    padding: 0em;
+    padding-right: 20px;
     background: #252839;
     color: #fff;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #main-footer img {
@@ -200,7 +232,7 @@ p {
 
 #main-footer img:hover {
     transition: transform 0.4s;
-    transform: scale(1.5);    
+    transform: scale(1.2);    
 }
 
 #main-footer a {

@@ -1,10 +1,10 @@
 var i = 0;
-var txt = 'Jason Kwan';
-var typingSpeed = 125;
+var txt = 'Student. 3D Environment Artist. Cat Owner.';
+var typingSpeed = 60;
 
 function typingText() {
     if (i < txt.length) {
-        document.getElementById("name").innerHTML += txt.charAt(i);
+        document.getElementById("type").innerHTML += txt.charAt(i);
         i++;
         setTimeout(typingText, typingSpeed);
     }
