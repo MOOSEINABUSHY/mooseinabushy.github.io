@@ -10,9 +10,9 @@ Personal website for portfolio
 
 ## Status
 
-Layout complete. Need to redesign the center section. Considering replacing the cards and text with an image carousel.
+* Layout complete. Need to redesign the center section. Considering replacing the cards and text with an image carousel.
 
-Working on modern-material design on [separate branch](https://github.com/MOOSEINABUSHY/mooseinabushy.github.io/tree/modern-design). 
+* Working on modern-material design on [separate branch](https://github.com/MOOSEINABUSHY/mooseinabushy.github.io/tree/modern-design). 
 
 ## Features-to-add
 
@@ -22,6 +22,7 @@ Working on modern-material design on [separate branch](https://github.com/MOOSEI
 ## Hosting
 
 Domain registrar: [Namecheap](https://www.namecheap.com/)
+
 Web hosting: [GitHub](https://github.com/)
 
 ## Release Cycle
