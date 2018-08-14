@@ -36,8 +36,10 @@ img {
     max-height: 100%;
     max-width: 100%;
     height: auto;
-    
+    border-radius: 5px;
+
 }
+
 
 
 h1, h2, h3 {
@@ -166,18 +168,23 @@ p {
 
 /* Section B */
 #section-b {
-    padding: 0.5em 0.5em 1em;
+    /* padding: 0.5em 0.5em 1em; */
+    padding-top: 0.5em;
+
     display: inline-block;
     color: #fdfdfd;
+    background: rgb(255, 255, 255);
 }
 
 .card-title {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800i;
-    font-size: 25px;
-    text-align: left;
+    font-size: 22px;
+    text-align: center;
     padding-bottom: 10px;
-    color: #fdfdfd;
+    padding-top: 0px;
+    color: hsl(210, 12%, 37%);
+    white-space: nowrap;
 }
 
 
@@ -196,7 +203,28 @@ p {
     /* color: hsl(210, 12%, 37%); */
 }
 
+hr {
+    width: 55%;
+}
 
+.style {
+    overflow: visible;
+    padding: 0;
+    color: #000000;
+    border: none;
+    border-top: thick double rgb(0, 0, 0);
+}
+
+.style:after {
+    background: #fff;
+    content: "*";
+    position: relative;
+    top: -0.65em;
+    font-size: 2em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    
+}
 
 .card-content {
     padding: 1.5em;
@@ -262,6 +290,10 @@ p {
         grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
     }
 
+    .card-title {
+        font-size: 2vw;
+    }
+
     /* #section-a .content-text {
        
     } */
@@ -284,7 +316,7 @@ p {
     }
 
     #section-b li {
-        width: 31%;
+        width: 32.5%;
     }
 
     .profile-picture {
