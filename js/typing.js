@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'Student. 3D Environment Artist. Cat Owner.';
+var txt = '3D Environment Artist. Cat Owner.';
 var typingSpeed = 60;
 
 function typingText() {
